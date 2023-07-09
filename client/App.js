@@ -14,8 +14,8 @@ function App() {
                     <Route path="/" element={<Home />} exact />
                     <Route path="/add" element={<AddBook />} exact />
                     <Route path="/books" element={<Books />} exact />
-                    <Route path="/about" element={<Books />} exact />  
-                    <Route path="/about" element={<Books />} exact />  
+                    <Route path="/about" element={<About />} exact />  
+                    <Route path="/books/:id" element={<BookDetail />} exact />  
                     </Routes>
             </main>
         </React.Fragment>
